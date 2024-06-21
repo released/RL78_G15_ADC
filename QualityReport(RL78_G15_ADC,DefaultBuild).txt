@@ -1,0 +1,323 @@
+QualityReport
+2024年6月21日 下午 01:27:06
+
+------ Start build(RL78_G15_ADC, DefaultBuild) ------
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe main.c -cpu=S2 -use_mda=not_use -o DefaultBuild\main.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F12068.DVF" -g -g_line -Onothing -I src\smc_gen\Config_PORT -I src\smc_gen\Config_ADC -I src\smc_gen\Config_UART0 -I src\smc_gen\Config_TAU0_1 -I src\smc_gen\r_pincfg -I src\smc_gen\r_config -I src\smc_gen\r_bsp\mcu\rl78_g15\register_access\ccrl -I src\smc_gen\r_bsp\mcu\rl78_g15 -I src\smc_gen\r_bsp\mcu\all -I src\smc_gen\r_bsp\board\generic_rl78_g15 -I src\smc_gen\r_bsp -I src\smc_gen\general -I .\ -lang=c99 -far_rom -c -MAKEUD=DefaultBuild -exec_time=C:\Users\averyc\AppData\Local\Temp\CSPlusBuildTool_f71d3b583cfd4f6dbeb4e0d87a8d1ba6tyd52rfa.cp4 -msg_lang=english
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe misc_config.c -cpu=S2 -use_mda=not_use -o DefaultBuild\misc_config.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F12068.DVF" -g -g_line -Onothing -I src\smc_gen\Config_PORT -I src\smc_gen\Config_ADC -I src\smc_gen\Config_UART0 -I src\smc_gen\Config_TAU0_1 -I src\smc_gen\r_pincfg -I src\smc_gen\r_config -I src\smc_gen\r_bsp\mcu\rl78_g15\register_access\ccrl -I src\smc_gen\r_bsp\mcu\rl78_g15 -I src\smc_gen\r_bsp\mcu\all -I src\smc_gen\r_bsp\board\generic_rl78_g15 -I src\smc_gen\r_bsp -I src\smc_gen\general -I .\ -lang=c99 -far_rom -c -MAKEUD=DefaultBuild -exec_time=C:\Users\averyc\AppData\Local\Temp\CSPlusBuildTool_6833829060e34dcb834e6cbb558081b9ad3v3gvy.yhp -msg_lang=english
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe src\smc_gen\r_bsp\board\generic_rl78_g15\hdwinit.c -cpu=S2 -use_mda=not_use -o DefaultBuild\hdwinit.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F12068.DVF" -g -g_line -Onothing -I src\smc_gen\Config_PORT -I src\smc_gen\Config_ADC -I src\smc_gen\Config_UART0 -I src\smc_gen\Config_TAU0_1 -I src\smc_gen\r_pincfg -I src\smc_gen\r_config -I src\smc_gen\r_bsp\mcu\rl78_g15\register_access\ccrl -I src\smc_gen\r_bsp\mcu\rl78_g15 -I src\smc_gen\r_bsp\mcu\all -I src\smc_gen\r_bsp\board\generic_rl78_g15 -I src\smc_gen\r_bsp -I src\smc_gen\general -I .\ -lang=c99 -far_rom -c -MAKEUD=DefaultBuild -exec_time=C:\Users\averyc\AppData\Local\Temp\CSPlusBuildTool_3621a870694c4964982934ad047bbc8ca40pbvy5.dag -msg_lang=english
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe src\smc_gen\general\r_cg_tau_common.c -cpu=S2 -use_mda=not_use -o DefaultBuild\r_cg_tau_common.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F12068.DVF" -g -g_line -Onothing -I src\smc_gen\Config_PORT -I src\smc_gen\Config_ADC -I src\smc_gen\Config_UART0 -I src\smc_gen\Config_TAU0_1 -I src\smc_gen\r_pincfg -I src\smc_gen\r_config -I src\smc_gen\r_bsp\mcu\rl78_g15\register_access\ccrl -I src\smc_gen\r_bsp\mcu\rl78_g15 -I src\smc_gen\r_bsp\mcu\all -I src\smc_gen\r_bsp\board\generic_rl78_g15 -I src\smc_gen\r_bsp -I src\smc_gen\general -I .\ -lang=c99 -far_rom -c -MAKEUD=DefaultBuild -exec_time=C:\Users\averyc\AppData\Local\Temp\CSPlusBuildTool_30d7b853c6fb4143b0347e498ad3c77cfdx0axfe.oyt -msg_lang=english
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe src\smc_gen\Config_TAU0_1\Config_TAU0_1_user.c -cpu=S2 -use_mda=not_use -o DefaultBuild\Config_TAU0_1_user.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F12068.DVF" -g -g_line -Onothing -I src\smc_gen\Config_PORT -I src\smc_gen\Config_ADC -I src\smc_gen\Config_UART0 -I src\smc_gen\Config_TAU0_1 -I src\smc_gen\r_pincfg -I src\smc_gen\r_config -I src\smc_gen\r_bsp\mcu\rl78_g15\register_access\ccrl -I src\smc_gen\r_bsp\mcu\rl78_g15 -I src\smc_gen\r_bsp\mcu\all -I src\smc_gen\r_bsp\board\generic_rl78_g15 -I src\smc_gen\r_bsp -I src\smc_gen\general -I .\ -lang=c99 -far_rom -c -MAKEUD=DefaultBuild -exec_time=C:\Users\averyc\AppData\Local\Temp\CSPlusBuildTool_b30b1c15cbb043b7b8c6db1d6dcb93163xoa4e1j.mub -msg_lang=english
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe src\smc_gen\r_bsp\mcu\rl78_g15\mcu_clocks.c -cpu=S2 -use_mda=not_use -o DefaultBuild\mcu_clocks.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F12068.DVF" -g -g_line -Onothing -I src\smc_gen\Config_PORT -I src\smc_gen\Config_ADC -I src\smc_gen\Config_UART0 -I src\smc_gen\Config_TAU0_1 -I src\smc_gen\r_pincfg -I src\smc_gen\r_config -I src\smc_gen\r_bsp\mcu\rl78_g15\register_access\ccrl -I src\smc_gen\r_bsp\mcu\rl78_g15 -I src\smc_gen\r_bsp\mcu\all -I src\smc_gen\r_bsp\board\generic_rl78_g15 -I src\smc_gen\r_bsp -I src\smc_gen\general -I .\ -lang=c99 -far_rom -c -MAKEUD=DefaultBuild -exec_time=C:\Users\averyc\AppData\Local\Temp\CSPlusBuildTool_486f83c0ab0a43b0a9758cd8a78d577draxlec4j.1qt -msg_lang=english
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe src\smc_gen\Config_PORT\Config_PORT.c -cpu=S2 -use_mda=not_use -o DefaultBuild\Config_PORT.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F12068.DVF" -g -g_line -Onothing -I src\smc_gen\Config_PORT -I src\smc_gen\Config_ADC -I src\smc_gen\Config_UART0 -I src\smc_gen\Config_TAU0_1 -I src\smc_gen\r_pincfg -I src\smc_gen\r_config -I src\smc_gen\r_bsp\mcu\rl78_g15\register_access\ccrl -I src\smc_gen\r_bsp\mcu\rl78_g15 -I src\smc_gen\r_bsp\mcu\all -I src\smc_gen\r_bsp\board\generic_rl78_g15 -I src\smc_gen\r_bsp -I src\smc_gen\general -I .\ -lang=c99 -far_rom -c -MAKEUD=DefaultBuild -exec_time=C:\Users\averyc\AppData\Local\Temp\CSPlusBuildTool_4bff196011514764acb27b84a8513cc1r3hymsrh.3jf -msg_lang=english
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe src\smc_gen\r_bsp\board\generic_rl78_g15\stkinit.asm -cpu=S2 -use_mda=not_use -o DefaultBuild\stkinit.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F12068.DVF" -g -I src\smc_gen\r_config -I src\smc_gen\r_bsp\board\generic_rl78_g15 -c -MAKEUD=DefaultBuild -exec_time=C:\Users\averyc\AppData\Local\Temp\CSPlusBuildTool_44d5977f8a0249c1a399ef78b3e7c242khblqv0o.nep -msg_lang=english
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe src\smc_gen\r_bsp\mcu\all\cstart.asm -cpu=S2 -use_mda=not_use -o DefaultBuild\cstart.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F12068.DVF" -g -I src\smc_gen\r_config -I src\smc_gen\r_bsp\board\generic_rl78_g15 -c -MAKEUD=DefaultBuild -exec_time=C:\Users\averyc\AppData\Local\Temp\CSPlusBuildTool_f681e2c125e849ffb4dbf16e1ecf72b5k5byxyhv.1hg -msg_lang=english
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe custom_func.c -cpu=S2 -use_mda=not_use -o DefaultBuild\custom_func.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F12068.DVF" -g -g_line -Onothing -I src\smc_gen\Config_PORT -I src\smc_gen\Config_ADC -I src\smc_gen\Config_UART0 -I src\smc_gen\Config_TAU0_1 -I src\smc_gen\r_pincfg -I src\smc_gen\r_config -I src\smc_gen\r_bsp\mcu\rl78_g15\register_access\ccrl -I src\smc_gen\r_bsp\mcu\rl78_g15 -I src\smc_gen\r_bsp\mcu\all -I src\smc_gen\r_bsp\board\generic_rl78_g15 -I src\smc_gen\r_bsp -I src\smc_gen\general -I .\ -lang=c99 -far_rom -c -MAKEUD=DefaultBuild -exec_time=C:\Users\averyc\AppData\Local\Temp\CSPlusBuildTool_4d232cc4983441789297ac39e1955e5eiygcq4gg.2ll -msg_lang=english
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe src\smc_gen\general\r_cg_sau_common.c -cpu=S2 -use_mda=not_use -o DefaultBuild\r_cg_sau_common.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F12068.DVF" -g -g_line -Onothing -I src\smc_gen\Config_PORT -I src\smc_gen\Config_ADC -I src\smc_gen\Config_UART0 -I src\smc_gen\Config_TAU0_1 -I src\smc_gen\r_pincfg -I src\smc_gen\r_config -I src\smc_gen\r_bsp\mcu\rl78_g15\register_access\ccrl -I src\smc_gen\r_bsp\mcu\rl78_g15 -I src\smc_gen\r_bsp\mcu\all -I src\smc_gen\r_bsp\board\generic_rl78_g15 -I src\smc_gen\r_bsp -I src\smc_gen\general -I .\ -lang=c99 -far_rom -c -MAKEUD=DefaultBuild -exec_time=C:\Users\averyc\AppData\Local\Temp\CSPlusBuildTool_501955a1809c4ce089f485c04d2ee9f0ubvdhgde.dny -msg_lang=english
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe src\smc_gen\r_bsp\board\generic_rl78_g15\r_bsp_init.c -cpu=S2 -use_mda=not_use -o DefaultBuild\r_bsp_init.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F12068.DVF" -g -g_line -Onothing -I src\smc_gen\Config_PORT -I src\smc_gen\Config_ADC -I src\smc_gen\Config_UART0 -I src\smc_gen\Config_TAU0_1 -I src\smc_gen\r_pincfg -I src\smc_gen\r_config -I src\smc_gen\r_bsp\mcu\rl78_g15\register_access\ccrl -I src\smc_gen\r_bsp\mcu\rl78_g15 -I src\smc_gen\r_bsp\mcu\all -I src\smc_gen\r_bsp\board\generic_rl78_g15 -I src\smc_gen\r_bsp -I src\smc_gen\general -I .\ -lang=c99 -far_rom -c -MAKEUD=DefaultBuild -exec_time=C:\Users\averyc\AppData\Local\Temp\CSPlusBuildTool_2e1fbc22ffc84e76ae592da952899a89uh5puslc.cle -msg_lang=english
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe src\smc_gen\Config_PORT\Config_PORT_user.c -cpu=S2 -use_mda=not_use -o DefaultBuild\Config_PORT_user.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F12068.DVF" -g -g_line -Onothing -I src\smc_gen\Config_PORT -I src\smc_gen\Config_ADC -I src\smc_gen\Config_UART0 -I src\smc_gen\Config_TAU0_1 -I src\smc_gen\r_pincfg -I src\smc_gen\r_config -I src\smc_gen\r_bsp\mcu\rl78_g15\register_access\ccrl -I src\smc_gen\r_bsp\mcu\rl78_g15 -I src\smc_gen\r_bsp\mcu\all -I src\smc_gen\r_bsp\board\generic_rl78_g15 -I src\smc_gen\r_bsp -I src\smc_gen\general -I .\ -lang=c99 -far_rom -c -MAKEUD=DefaultBuild -exec_time=C:\Users\averyc\AppData\Local\Temp\CSPlusBuildTool_e3047e9fe481468d8a524ebbe62edb73c4pzres2.5cr -msg_lang=english
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe src\smc_gen\Config_UART0\Config_UART0.c -cpu=S2 -use_mda=not_use -o DefaultBuild\Config_UART0.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F12068.DVF" -g -g_line -Onothing -I src\smc_gen\Config_PORT -I src\smc_gen\Config_ADC -I src\smc_gen\Config_UART0 -I src\smc_gen\Config_TAU0_1 -I src\smc_gen\r_pincfg -I src\smc_gen\r_config -I src\smc_gen\r_bsp\mcu\rl78_g15\register_access\ccrl -I src\smc_gen\r_bsp\mcu\rl78_g15 -I src\smc_gen\r_bsp\mcu\all -I src\smc_gen\r_bsp\board\generic_rl78_g15 -I src\smc_gen\r_bsp -I src\smc_gen\general -I .\ -lang=c99 -far_rom -c -MAKEUD=DefaultBuild -exec_time=C:\Users\averyc\AppData\Local\Temp\CSPlusBuildTool_c8b5bdd1d0d646149d629de4d91796c8rcoy2304.tp3 -msg_lang=english
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe src\smc_gen\r_pincfg\Pin.c -cpu=S2 -use_mda=not_use -o DefaultBuild\Pin.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F12068.DVF" -g -g_line -Onothing -I src\smc_gen\Config_PORT -I src\smc_gen\Config_ADC -I src\smc_gen\Config_UART0 -I src\smc_gen\Config_TAU0_1 -I src\smc_gen\r_pincfg -I src\smc_gen\r_config -I src\smc_gen\r_bsp\mcu\rl78_g15\register_access\ccrl -I src\smc_gen\r_bsp\mcu\rl78_g15 -I src\smc_gen\r_bsp\mcu\all -I src\smc_gen\r_bsp\board\generic_rl78_g15 -I src\smc_gen\r_bsp -I src\smc_gen\general -I .\ -lang=c99 -far_rom -c -MAKEUD=DefaultBuild -exec_time=C:\Users\averyc\AppData\Local\Temp\CSPlusBuildTool_9672b787d4284f098b5186763fac445csfd1br1z.cih -msg_lang=english
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe src\smc_gen\Config_ADC\Config_ADC.c -cpu=S2 -use_mda=not_use -o DefaultBuild\Config_ADC.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F12068.DVF" -g -g_line -Onothing -I src\smc_gen\Config_PORT -I src\smc_gen\Config_ADC -I src\smc_gen\Config_UART0 -I src\smc_gen\Config_TAU0_1 -I src\smc_gen\r_pincfg -I src\smc_gen\r_config -I src\smc_gen\r_bsp\mcu\rl78_g15\register_access\ccrl -I src\smc_gen\r_bsp\mcu\rl78_g15 -I src\smc_gen\r_bsp\mcu\all -I src\smc_gen\r_bsp\board\generic_rl78_g15 -I src\smc_gen\r_bsp -I src\smc_gen\general -I .\ -lang=c99 -far_rom -c -MAKEUD=DefaultBuild -exec_time=C:\Users\averyc\AppData\Local\Temp\CSPlusBuildTool_4cdb05061c274db6b33fe31f8578e481toz155id.5pd -msg_lang=english
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe src\smc_gen\r_bsp\mcu\all\r_bsp_common_ccrl.asm -cpu=S2 -use_mda=not_use -o DefaultBuild\r_bsp_common_ccrl.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F12068.DVF" -g -I src\smc_gen\r_config -I src\smc_gen\r_bsp\board\generic_rl78_g15 -c -MAKEUD=DefaultBuild -exec_time=C:\Users\averyc\AppData\Local\Temp\CSPlusBuildTool_bfac2f593aef41e4ad1ee36c4ad93016lkpmnykk.5jr -msg_lang=english
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe src\smc_gen\general\r_cg_ad_common.c -cpu=S2 -use_mda=not_use -o DefaultBuild\r_cg_ad_common.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F12068.DVF" -g -g_line -Onothing -I src\smc_gen\Config_PORT -I src\smc_gen\Config_ADC -I src\smc_gen\Config_UART0 -I src\smc_gen\Config_TAU0_1 -I src\smc_gen\r_pincfg -I src\smc_gen\r_config -I src\smc_gen\r_bsp\mcu\rl78_g15\register_access\ccrl -I src\smc_gen\r_bsp\mcu\rl78_g15 -I src\smc_gen\r_bsp\mcu\all -I src\smc_gen\r_bsp\board\generic_rl78_g15 -I src\smc_gen\r_bsp -I src\smc_gen\general -I .\ -lang=c99 -far_rom -c -MAKEUD=DefaultBuild -exec_time=C:\Users\averyc\AppData\Local\Temp\CSPlusBuildTool_f4160a586ab549b4a3bba1680754ae53tm0g33kl.rae -msg_lang=english
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe src\smc_gen\general\r_cg_systeminit.c -cpu=S2 -use_mda=not_use -o DefaultBuild\r_cg_systeminit.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F12068.DVF" -g -g_line -Onothing -I src\smc_gen\Config_PORT -I src\smc_gen\Config_ADC -I src\smc_gen\Config_UART0 -I src\smc_gen\Config_TAU0_1 -I src\smc_gen\r_pincfg -I src\smc_gen\r_config -I src\smc_gen\r_bsp\mcu\rl78_g15\register_access\ccrl -I src\smc_gen\r_bsp\mcu\rl78_g15 -I src\smc_gen\r_bsp\mcu\all -I src\smc_gen\r_bsp\board\generic_rl78_g15 -I src\smc_gen\r_bsp -I src\smc_gen\general -I .\ -lang=c99 -far_rom -c -MAKEUD=DefaultBuild -exec_time=C:\Users\averyc\AppData\Local\Temp\CSPlusBuildTool_5873cca15c0d455488d43de48b58d7895hwatz2w.ryb -msg_lang=english
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe src\smc_gen\r_bsp\mcu\all\r_bsp_common.c -cpu=S2 -use_mda=not_use -o DefaultBuild\r_bsp_common.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F12068.DVF" -g -g_line -Onothing -I src\smc_gen\Config_PORT -I src\smc_gen\Config_ADC -I src\smc_gen\Config_UART0 -I src\smc_gen\Config_TAU0_1 -I src\smc_gen\r_pincfg -I src\smc_gen\r_config -I src\smc_gen\r_bsp\mcu\rl78_g15\register_access\ccrl -I src\smc_gen\r_bsp\mcu\rl78_g15 -I src\smc_gen\r_bsp\mcu\all -I src\smc_gen\r_bsp\board\generic_rl78_g15 -I src\smc_gen\r_bsp -I src\smc_gen\general -I .\ -lang=c99 -far_rom -c -MAKEUD=DefaultBuild -exec_time=C:\Users\averyc\AppData\Local\Temp\CSPlusBuildTool_3f7eb99d3fa84cb6b1b5ec2becfb242bkemtjysn.by2 -msg_lang=english
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe src\smc_gen\Config_UART0\Config_UART0_user.c -cpu=S2 -use_mda=not_use -o DefaultBuild\Config_UART0_user.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F12068.DVF" -g -g_line -Onothing -I src\smc_gen\Config_PORT -I src\smc_gen\Config_ADC -I src\smc_gen\Config_UART0 -I src\smc_gen\Config_TAU0_1 -I src\smc_gen\r_pincfg -I src\smc_gen\r_config -I src\smc_gen\r_bsp\mcu\rl78_g15\register_access\ccrl -I src\smc_gen\r_bsp\mcu\rl78_g15 -I src\smc_gen\r_bsp\mcu\all -I src\smc_gen\r_bsp\board\generic_rl78_g15 -I src\smc_gen\r_bsp -I src\smc_gen\general -I .\ -lang=c99 -far_rom -c -MAKEUD=DefaultBuild -exec_time=C:\Users\averyc\AppData\Local\Temp\CSPlusBuildTool_8ed1149fa01148ad8b84a513df8141fbrldcwzqi.nzw -msg_lang=english
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe src\smc_gen\Config_TAU0_1\Config_TAU0_1.c -cpu=S2 -use_mda=not_use -o DefaultBuild\Config_TAU0_1.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F12068.DVF" -g -g_line -Onothing -I src\smc_gen\Config_PORT -I src\smc_gen\Config_ADC -I src\smc_gen\Config_UART0 -I src\smc_gen\Config_TAU0_1 -I src\smc_gen\r_pincfg -I src\smc_gen\r_config -I src\smc_gen\r_bsp\mcu\rl78_g15\register_access\ccrl -I src\smc_gen\r_bsp\mcu\rl78_g15 -I src\smc_gen\r_bsp\mcu\all -I src\smc_gen\r_bsp\board\generic_rl78_g15 -I src\smc_gen\r_bsp -I src\smc_gen\general -I .\ -lang=c99 -far_rom -c -MAKEUD=DefaultBuild -exec_time=C:\Users\averyc\AppData\Local\Temp\CSPlusBuildTool_0325768ed26b44499432c95da961571cde2phan1.odm -msg_lang=english
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe src\smc_gen\Config_ADC\Config_ADC_user.c -cpu=S2 -use_mda=not_use -o DefaultBuild\Config_ADC_user.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F12068.DVF" -g -g_line -Onothing -I src\smc_gen\Config_PORT -I src\smc_gen\Config_ADC -I src\smc_gen\Config_UART0 -I src\smc_gen\Config_TAU0_1 -I src\smc_gen\r_pincfg -I src\smc_gen\r_config -I src\smc_gen\r_bsp\mcu\rl78_g15\register_access\ccrl -I src\smc_gen\r_bsp\mcu\rl78_g15 -I src\smc_gen\r_bsp\mcu\all -I src\smc_gen\r_bsp\board\generic_rl78_g15 -I src\smc_gen\r_bsp -I src\smc_gen\general -I .\ -lang=c99 -far_rom -c -MAKEUD=DefaultBuild -exec_time=C:\Users\averyc\AppData\Local\Temp\CSPlusBuildTool_96e3bacc604448df83cf7829b5f83757lhgfuhta.dq4 -msg_lang=english
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\rlink.exe -MAKEUD=DefaultBuild\RL78_G15_ADC.lk.ud -subcommand=DefaultBuild\RL78_G15_ADC.clnk
+W0561017:Paid license of CC-RL V1 is not found, and the evaluation period has expired. Please consider purchasing the product.
+RAMDATA SECTION:  00000032 Byte(s)
+ROMDATA SECTION:  000003cc Byte(s)
+PROGRAM SECTION:  00001402 Byte(s)
+W0561017:Paid license of CC-RL V1 is not found, and the evaluation period has expired. Please consider purchasing the product.
+Renesas Optimizing Linker Completed
+------ Build ended(Error:0, Warning:2)(RL78_G15_ADC, DefaultBuild) ------
+
+--- CommandFile 1 ---
+DefaultBuild\RL78_G15_ADC.clnk :
+-Input=DefaultBuild\main.obj
+-Input=DefaultBuild\r_cg_systeminit.obj
+-Input=DefaultBuild\r_cg_tau_common.obj
+-Input=DefaultBuild\hdwinit.obj
+-Input=DefaultBuild\r_bsp_init.obj
+-Input=DefaultBuild\stkinit.obj
+-Input=DefaultBuild\cstart.obj
+-Input=DefaultBuild\r_bsp_common.obj
+-Input=DefaultBuild\r_bsp_common_ccrl.obj
+-Input=DefaultBuild\mcu_clocks.obj
+-Input=DefaultBuild\Pin.obj
+-Input=DefaultBuild\Config_TAU0_1.obj
+-Input=DefaultBuild\Config_TAU0_1_user.obj
+-Input=DefaultBuild\custom_func.obj
+-Input=DefaultBuild\misc_config.obj
+-Input=DefaultBuild\Config_UART0.obj
+-Input=DefaultBuild\Config_UART0_user.obj
+-Input=DefaultBuild\r_cg_sau_common.obj
+-Input=DefaultBuild\Config_ADC.obj
+-Input=DefaultBuild\Config_ADC_user.obj
+-Input=DefaultBuild\r_cg_ad_common.obj
+-Input=DefaultBuild\Config_PORT.obj
+-Input=DefaultBuild\Config_PORT_user.obj
+-SECURITY_ID=00000000000000000000
+-DEVICE=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F12068.DVF
+-DEBug
+-NOCOmpress
+-NOOPtimize
+-OUtput=DefaultBuild\RL78_G15_ADC.abs
+-OCDBG=85
+-DEBUG_MONITOR=01E00-01FFF
+-USER_OPT_BYTE=EFF7F9
+-RRM=FFB00
+-LISt=DefaultBuild\RL78_G15_ADC.map
+-SHow=Reference,Xreference,Total_size
+-AUTO_SECTION_LAYOUT
+-ROm=.data=.dataR
+-ROm=.sdata=.sdataR
+-NOMessage
+-Total_size
+-NOLOgo
+-LIBrary=DefaultBuild\RL78_G15_ADC.lib
+-end
+-Input=DefaultBuild\RL78_G15_ADC.abs
+-DEVICE=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F12068.DVF
+-OUtput=DefaultBuild\RL78_G15_ADC.mot
+-FOrm=Hexadecimal
+-NOMessage
+-exit
+
+
+--- SHA1 hash value of output files ---
+D:\SourceCode\_Avery_Renesas\CS+\RL78_G15_ADC\DefaultBuild\RL78_G15_ADC.abs: e77fa4393d3435967dafe027831f58decd45394d
+D:\SourceCode\_Avery_Renesas\CS+\RL78_G15_ADC\DefaultBuild\RL78_G15_ADC.mot: 32ae17b9d55323faa75b8756f22cee713b876b35
+
+
+--- System Information ---
+*OS Version
+ Microsoft Windows 10 專業版 (-, 10.0.19045, WOW64)
+*Language
+ 中文(台灣)
+*.NET Framework Version
+ Microsoft .NET Framework 4 [.NET 4.8 or later] (528372)
+
+--- Application Information ---
+*Product Name
+ CS+ for CC
+*Package Version
+ V8.11.00  [30 Nov 2023]
+*Version
+ V9.11.00.04 [30 Oct 2023]
+*Assembly Version
+ 3.12.10.1
+*Sales Area
+ Global
+*Product License
+ 
+*Execution Place
+ C:\Program Files (x86)\Renesas Electronics\CS+\CC
+*Memory Usage
+ *Private Working Set
+  312 MB
+ *Number of GDI Objects
+  2164
+ *Number of USER Objects
+  1079
+ *Opened Files
+  5 editors, 5 files, 36 KB
+
+--- Build Tool Plug-in Information ---
+RH850 Build tool CC-RH Plug-in
+ *Version
+  V8.09.00.00 [07 Oct 2022]
+ *Assembly Version
+  1.1.10.12
+ *DLL File Name
+  BuildToolCCRH.dll
+RL78 Build tool CC-RL Plug-in
+ *Version
+  V8.11.00.00 [29 Sep 2023]
+ *Assembly Version
+  1.0.0.0
+ *DLL File Name
+  BuildToolCCRL.dll
+RX Build tool CC-RX Plug-in
+ *Version
+  V8.09.00.00 [07 Oct 2022]
+ *Assembly Version
+  3.12.10.1
+ *DLL File Name
+  BuildToolCCRX.dll
+RH850 Build tool GHS CCRH850 Plug-in
+ *Version
+  V1.08.00.00 [03 Apr 2023]
+ *Assembly Version
+  1.0.0.0
+ *DLL File Name
+  BuildToolGHSCCRH850.dll
+
+--- Debug Tool Plug-in Information ---
+Debugger Collection Plug-in
+ *Version
+  V8.11.00.03 [21 Nov 2023]
+ *Assembly Version
+  2.12.10.1
+ *DLL File Name
+  DebugToolCollection.dll
+
+--- Other Plug-in Information ---
+Code Generator Plug-in for RH850
+ *Version
+  V1.02.02.05 [25 May 2018]
+ *Assembly Version
+  1.0.0.0
+ *DLL File Name
+  CodeGeneratorRH850.dll
+Code Generator Plug-in
+ *Version
+  V4.08.06.01 [28 Oct 2022]
+ *Assembly Version
+  3.0.0.0
+ *DLL File Name
+  CodePart.dll
+Code Generator/PinView Plug-in
+ *Version
+  V2.10.07.02 [08 Nov 2021]
+ *Assembly Version
+  1.0.0.0
+ *DLL File Name
+  CodePart2.dll
+Debug Console Plug-in
+ *Version
+  V8.09.00.03 [24 Nov 2022]
+ *Assembly Version
+  8.9.0.0
+ *DLL File Name
+  DebugConsole.dll
+Quick and Effective tool solution - QE
+ *Version
+  V9.11.00.03 [13 Oct 2023]
+ *Assembly Version
+  1.15.10.16
+ *DLL File Name
+  InCarTools.dll
+Pin Configurator Plug-in
+ *Version
+  V1.54.01.01 [31 Jul 2014]
+ *Assembly Version
+  1.6.10.23
+ *DLL File Name
+  PinConfig.dll
+Program Analyzer Plug-in
+ *Version
+  V4.13.00.03 [24 May 2023]
+ *Assembly Version
+  3.12.11.9
+ *DLL File Name
+  ProgramAnalyzer.dll
+IronPython Console Plug-in
+ *Version
+  V1.47.00.02 [01 Nov 2023]
+ *Assembly Version
+  1.6.10.23
+ *DLL File Name
+  PythonConsole.dll
+Editor plug-in DLL
+ *Version
+  V1.19.00.01 [24 Oct 2022]
+ *Assembly Version
+  1.1.0.0
+ *DLL File Name
+  SEditor.dll
+Smart Configurator for RH850 Communication Plug-in
+ *Version
+  V1.02.08.02 [30 Oct 2023]
+ *Assembly Version
+  1.0.0.0
+ *DLL File Name
+  SmcCodePartRH850.dll
+Smart Configurator for RL78 Communication Plug-in
+ *Version
+  V1.00.08.03 [20 Nov 2023]
+ *Assembly Version
+  1.0.0.0
+ *DLL File Name
+  SmcCodePartRL78.dll
+Stack Usage Tracer
+ *Version
+  V1.05.00.02 [30 Jul 2014]
+ *Assembly Version
+  1.30.11.15
+ *DLL File Name
+  Stk.dll
+Update Manager Plug-in
+ *Version
+  V2.03.00.02 [29 Oct 2018]
+ *Assembly Version
+  1.13.6.20
+ *DLL File Name
+  Update.dll
+
+Debug Tool Common Interface
+ *Version
+  V8.11.00.03 [21 Nov 2023]
+ *Assembly Version
+  3.12.10.1
+ *DLL File Name
+  CommonDebuggerInterface.dll
+Device Information Common Interface
+ *Version
+  V9.11.00.03 [13 Oct 2023]
+ *Assembly Version
+  3.0.0.0
+ *DLL File Name
+  DeviceInformation.dll
+
+--- Main Project Information ---
+D:\SourceCode\_Avery_Renesas\CS+\RL78_G15_ADC\RL78_G15_ADC.mtpj
+Microcontroller Information
+ *R5F12068xSP
+  *File Name: Version
+   RL78_Productlist.xml: V8.110000
+   R5F12068xSP_common.xml: V1.00.00.XX.XX
+   DR5F12068.DVF: V1.00
+   -: -
+   -: -
+  
+
+Build Tool Information
+ *CC-RL
+   * Version of plug-in(*.dll)
+     V8.11.00.02 [27 Oct 2023]
+   * The Version of the Compiler Package
+     V1.13.00
+  
+ * The version of SMS Assembler
+   V1.00.00.01 [29 May 2020]
+ * The version of GREEN_DSP Structured Assembler 
+   V1.04.02
+ 
+
+Debug Tool Information
+ *RL78 E2 Lite
+  Debugger Library V8.11.00.03 [21 Nov 2023]
+  
+
+Other Tool Information
+ *None
+
+ *None
+
+ *None
+
+ *None
+
+ *Program Analyzer
+  *Version
+   V4.13.00.03 [24 May 2023]
+
+ *None
+
+ *Smart Configurator
+ *None
+
+
